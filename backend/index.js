@@ -2,7 +2,7 @@ import express, { response } from "express";
 import mongoose from "mongoose";
 import bcrypt from "bcrypt";
 const mongoURL =
-  "mongodb+srv://saiananyakatakam:NLnqR9ifdN8qbVft@cluster0.lbvmb.mongodb.net/EchoVoyages2";
+  "mongodb+srv://saiananyakatakam:<password>@cluster0.lbvmb.mongodb.net/EchoVoyages2";
 import adminRoute from "./routes/adminRoutes.js";
 import customerRoute from "./routes/customerRoutes.js";
 import packageRoute from "./routes/packageRoutes.js";
